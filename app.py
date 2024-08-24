@@ -4,7 +4,7 @@ import cv2
 
 # load the keras model 
 from tensorflow.keras.models import load_model
-model = load_model('dogBreedModel.kear')
+model = load_model('dogBreed.h5')
 
 # How many class are there?
 IMAGE_SIZE = (128, 128)
